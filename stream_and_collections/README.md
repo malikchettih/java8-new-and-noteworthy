@@ -38,3 +38,4 @@ The reduce() method applies a function against an accumulator and each element i
 const total = [0, 1, 2, 3].reduce((sum, value) => sum + value, 1);
 // total is 7
 ```
+The really cool thing about reduce is that it passes the result of one callback function invocation to the next one allowing us to do some crazy ass shenanigans like…
